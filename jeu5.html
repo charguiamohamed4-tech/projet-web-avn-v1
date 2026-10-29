@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="GameHub : catalogue de jeux vidéo à découvrir, filtrer et explorer."><title>Cosmic Farm — GameHub</title><link rel="stylesheet" href="style.css"></head>
+<body data-id="5">
+<header class="nav">
+  <a class="logo" href="index.html">Game<span>Hub</span></a>
+  <input type="checkbox" id="burger" class="menu-toggle" aria-label="Afficher le menu" aria-controls="primary-nav">
+  <label for="burger" class="burger" aria-hidden="true"><span></span></label>
+  <nav id="primary-nav"><a href="index.html">Accueil</a><a href="index.html#jeux">Jeux</a><a href="contact.html">Contact</a></nav>
+</header>
+<main class="wrap detail"><a class="back" href="index.html">← Retour au catalogue</a>
+<section class="hero-d"><div class="coverbox"><img class="cover" src="media/jeu5.svg" alt="Jaquette de Cosmic Farm"></div>
+<div class="info"><h1>Cosmic Farm</h1><div class="chips"><span class="chip">Simulation</span><span class="chip">PC</span><span class="chip">Switch</span><span class="chip">PlayStation</span></div>
+<p class="meta">Sortie : 2024-08-29 — Popularité : 84/100</p><button id="fav" class="btn" type="button" aria-pressed="false">☆ Ajouter aux favoris</button></div></section>
+<section class="cols"><article><h2>Histoire</h2><p>Après un atterrissage raté, vous héritez d'une ferme sur une planète lointaine. À vous d'y faire pousser de quoi nourrir une colonie.</p><h2>Gameplay</h2><p>Simulation de gestion détendue : cultures exotiques, élevage d'animaux lunaires, craft, commerce intergalactique et amitiés avec les habitants.</p></article>
+<aside><div class="player"><video id="vid" src="media/trailer5.mp4" poster="media/jeu5.svg" preload="metadata" playsinline></video>
+<div class="ctrls"><button id="pp" type="button" aria-label="Lecture ou pause">▶</button><input id="bar" type="range" min="0" max="100" value="0" aria-label="Progression de la vidéo" disabled><button id="ff" type="button" aria-label="Avancer de cinq secondes" disabled>+5s</button><input id="vol" type="range" min="0" max="1" step=".05" value=".8" aria-label="Volume"></div></div>
+<div class="ost"><h3>Bande-son</h3><audio controls src="media/theme5.wav"></audio></div></aside></section>
+<section><h2>Jeux similaires</h2><div class="grid" id="similar"></div></section></main>
+<footer id="contact">
+  <div class="foot">
+    <div><strong class="logo">Game<span>Hub</span></strong><p>Découvrez, filtrez, jouez.</p></div>
+    <ul>
+      <li><a href="mentions-legales.html">Mentions légales</a></li>
+      <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="social">
+      <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir le site X"><svg viewBox="0 0 24 24"><path d="M3 3h5l4.5 6L18 3h3l-7 8.5L21 21h-5l-5-6.5L5.5 21H3l7.5-9z"/></svg></a>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir YouTube"><svg viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5 3z"/></svg></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir Instagram"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
+    </div>
+    <div class="pl" id="pl"><button class="prev" type="button" aria-label="Piste précédente">⏮</button><span aria-live="polite"></span><button class="next" type="button" aria-label="Piste suivante">⏭</button><audio controls aria-label="Playlist des musiques de jeux"></audio></div>
+  </div>
+  <p class="copy">© 2026 GameHub — Projet pédagogique, Programmation Web avancée.</p>
+</footer>
+<script src="script.js"></script></body></html>

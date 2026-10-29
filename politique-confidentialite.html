@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GameHub : catalogue de jeux vidéo à découvrir, filtrer et explorer."><title>Politique de confidentialité — GameHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="index.html">Game<span>Hub</span></a>
+  <input type="checkbox" id="burger" class="menu-toggle" aria-label="Afficher le menu" aria-controls="primary-nav">
+  <label for="burger" class="burger" aria-hidden="true"><span></span></label>
+  <nav id="primary-nav"><a href="index.html">Accueil</a><a href="index.html#jeux">Jeux</a><a href="contact.html">Contact</a></nav>
+</header>
+
+<main class="wrap content-page">
+  <a class="back" href="index.html">← Retour à l’accueil</a>
+  <h1>Politique de confidentialité</h1>
+  <p>Cette page décrit le fonctionnement de la version actuelle du projet GameHub, telle qu’elle est distribuée avec ses fichiers sources.</p>
+  <h2>Données utilisées</h2>
+  <p>Le catalogue et les filtres fonctionnent localement dans le navigateur. Le site ne contient pas de compte utilisateur ni de serveur applicatif dans cette version.</p>
+  <h2>Favoris et stockage local</h2>
+  <p>Lorsque l’utilisateur ajoute ou retire un jeu de ses favoris, les identifiants correspondants sont enregistrés dans le stockage local du navigateur (<code>localStorage</code>) sous la clé <code>gh-fav</code>. Ces données restent dans le navigateur utilisé et peuvent être supprimées depuis les paramètres du navigateur.</p>
+  <h2>Médias et services externes</h2>
+  <p>Les fichiers audio, vidéo et images du projet sont chargés depuis le dossier local <code>media/</code>. Les icônes du pied de page ouvrent les sites généraux de X, YouTube et Instagram ; ces services appliquent leurs propres politiques lorsque l’utilisateur les visite.</p>
+  <h2>Portée de cette page</h2>
+  <p>Il s’agit d’une explication du comportement de la démonstration pédagogique. Si le projet reçoit ultérieurement des formulaires, des comptes, des outils de mesure ou un hébergement public, cette page devra être mise à jour en fonction du fonctionnement réel.</p>
+  <a class="btn" href="index.html">Revenir au catalogue</a>
+</main>
+<footer id="contact">
+  <div class="foot">
+    <div><strong class="logo">Game<span>Hub</span></strong><p>Découvrez, filtrez, jouez.</p></div>
+    <ul>
+      <li><a href="mentions-legales.html">Mentions légales</a></li>
+      <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="social">
+      <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir le site X"><svg viewBox="0 0 24 24"><path d="M3 3h5l4.5 6L18 3h3l-7 8.5L21 21h-5l-5-6.5L5.5 21H3l7.5-9z"/></svg></a>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir YouTube"><svg viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5 3z"/></svg></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir Instagram"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
+    </div>
+    <div class="pl" id="pl"><button class="prev" type="button" aria-label="Piste précédente">⏮</button><span aria-live="polite"></span><button class="next" type="button" aria-label="Piste suivante">⏭</button><audio controls aria-label="Playlist des musiques de jeux"></audio></div>
+  </div>
+  <p class="copy">© 2026 GameHub — Projet pédagogique, Programmation Web avancée.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
